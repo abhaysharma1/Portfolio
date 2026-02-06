@@ -12,15 +12,17 @@ function Projects() {
           <h1 className="font-satoshi text-5xl">My Projects</h1>
         </div>
         <div className="px-10 flex w-full justify-center">
-          <div className="group flex flex-col gap-3 w-100  border border-gray-900/80 p-4 rounded-xl bg-black/40 shadow-sm backdrop-blur-sm  transition-shadow duration-700 ease-out hover:-translate-y-1 hover:shadow-gray-800/60 cursor-pointer">
-            <img
-              src="/codeColiseum.png"
-              alt="CodeColiseum preview"
-              className="mix-blend-color-burn  w-full aspect-video object-cover object-left rounded-lg transition-transform duration-3000 ease-out group-hover:scale-110"
-            />
+          <a href="http://codecoliseum-632565b15b41.herokuapp.com/" target="_blank">
+            <div className="group flex flex-col gap-3 w-100  border border-gray-900/80 p-4 rounded-xl bg-black/40 shadow-sm backdrop-blur-sm  transition-shadow duration-700 ease-out hover:-translate-y-1 hover:shadow-gray-800/60 cursor-pointer">
+              <img
+                src="/codeColiseum.png"
+                alt="CodeColiseum preview"
+                className="mix-blend-color-burn  w-full aspect-video object-cover object-left rounded-lg transition-transform duration-3000 ease-out group-hover:scale-110"
+              />
 
-            <h1 className="font-dm-sans text-xs">CodeColiseum</h1>
-          </div>
+              <h1 className="font-dm-sans text-xs">CodeColiseum</h1>
+            </div>
+          </a>
         </div>
       </div>
     </div>

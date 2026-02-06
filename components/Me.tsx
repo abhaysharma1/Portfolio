@@ -28,11 +28,12 @@ function Me() {
         />
 
         <div className="font-dm-sans w-200 mt-10">
-          I’m a full-stack developer focused on building fast, scalable web
-          applications. I primarily work with React, Next.js, and modern backend
-          tools to turn ideas into production-ready products. I value clean
-          code, thoughtful design, and performance-driven development. I’m
-          always learning and improving through hands-on projects.
+          I’m a Abhay Sharma, a full-stack developer focused on building fast,
+          scalable web applications. I primarily work with React, Next.js, and
+          modern backend tools to turn ideas into production-ready products. I
+          value clean code, thoughtful design, and performance-driven
+          development. I’m always learning and improving through hands-on
+          projects.
         </div>
       </div>
     </div>

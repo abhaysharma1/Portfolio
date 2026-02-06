@@ -7,6 +7,7 @@ import "ldrs/react/Ripples.css";
 import { useEffect, useState } from "react";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Links from "@/components/Links";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -32,6 +33,9 @@ export default function Home() {
       </section>
       <section id="Skills" className="scroll-smooth">
         <Skills />
+      </section>
+      <section id="Skills" className="scroll-smooth">
+        <Links />
       </section>
     </div>
   );
